@@ -3,10 +3,10 @@ const express = require('express')
 let api = express.Router(),
   control = require('../controles/crud')
 
-api.get('/cine', control.getDatos)
-api.post('/cine', control.postDatos)
-api.put('/cine', control.updateDatos)
-api.delete('/cine', control.deleteDatos)
+api.get('/blackjack', control.getDatos)
+api.post('/blackjack', control.postDatos)
+api.put('/blackjack', control.updateDatos)
+api.delete('/blackjack', control.deleteDatos)
 
 api.post('/login', control.login)
 

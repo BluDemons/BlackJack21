@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import Sidebar from "../components/sidebar";
-import Header from "../components/header";
 import Grafica from "./grafica";
 import axios from "axios";
 import {Link} from "react-router-dom"
@@ -65,7 +63,6 @@ class Inicio extends Component {
   };
 
   render() {
-    const { sala_movie } = this.state;
     const {compras} = this.state;
     const image = require("../assets/balck.jpg");
     return (
